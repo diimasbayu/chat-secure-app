@@ -1,0 +1,17 @@
+package com.firebasechatforppat.dbayu.securechatappv20.model;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+
+
+
+public class Room {
+    public ArrayList<String> member;
+    public Map<String, String> groupInfo;
+
+    public Room(){
+        member = new ArrayList<>();
+        groupInfo = new HashMap<String, String>();
+    }
+}
